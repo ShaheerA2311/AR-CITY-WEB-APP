@@ -10,7 +10,7 @@ To get started, and use our web app, please follow the steps below:
 
 2. Follow the steps on their website until an API key for your project has been generated
 
-3. Find the following code block on line 169 in smaple.html, and enter your unique API key in place for [YOUR_API_KEY]:
+3. Find the following code block on line 169 in sample.html, and enter your unique API key in place for [YOUR_API_KEY]:
 
           <script
                 src="https://maps.googleapis.com/maps/api/js?key=[YOUR_API_KEY]&callback=initMap&v=weekly"
