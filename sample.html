@@ -173,31 +173,32 @@
     <br>
     
     
-    <h2>Enter an object name: </h2>
-    <form id="form" onsubmit="return false;">
+    <h2 style="text-align: center;">Enter an object name: </h2>
+    <form style="text-align: center;" id="form" onsubmit="return false;">
     <input style="width:15%;" type="text" name="input_name" id=input_name />
     </form>
-    <h2>Choose search radius: </h2>
-    <form>
-    <input type="range" name="amountRange" min="0" max="150" value="0" oninput="this.form.amountInput.value=this.value" />
-    <input type="number" name="amountInput" min="0" max="150" value="0" oninput="this.form.amountRange.value=this.value" id="input_radius"/>
+    <h2 style="text-align: center;">Choose search radius: </h2>
+    <form style="text-align: center;">
+    <input type="range" name="amountRange" min="0" max="500" value="0" oninput="this.form.amountInput.value=this.value" />
+    <input type="number" name="amountInput" min="0" max="500" value="0" oninput="this.form.amountRange.value=this.value" id="input_radius"/>
     </form>
-    <h2>Enter a description: </h2>
-    <form id="form" onsubmit="return false;">
+    <h2 style="text-align: center;">Enter a description: </h2>
+    <form style="text-align:center;" id="form" onsubmit="return false;">
     <input style="width:15%;" type="text"  name="input_desc" id=input_desc />
     </form>
 
     
 
-    <h2>Make Request: </h2>
-    <form id="form" onsubmit="return false;">
+    <h2 style="text-align: center;">Make Request: </h2>
+    <form style="text-align:center;" id="form" onsubmit="return false;">
       <input style="width:10%;" type="submit" value="POST sticker" onclick="make_call(getElementById('lat').innerHTML, getElementById('long').innerHTML, getElementById('input_radius').value, getElementById('input_name').value, getElementById('input_desc').value);" />
     </form>
 
     <div style="color: white;" type="number" id='lat' name="lat"></div>
     <div style="color: white;" type="number" id='long' name="long"></div>
     
-    Detected reconstruction ID: <div style="color: black;" type="number" id='recon_id' name="recon_id"></div>
+    
+    <p>Detected reconstruction ID: <div style="color: black;" type="number" id='recon_id' name="recon_id"></div></p>
 
   </body>
 </html>
