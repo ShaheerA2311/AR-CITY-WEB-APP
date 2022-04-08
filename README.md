@@ -8,9 +8,11 @@ To get started, and use our web app, please follow the steps below:
 
 1. Our system integrates the Google Maps API to calculate our location data. To use this API, head to the [Google Maps Platform Credentials page](https://console.cloud.google.com/project/_/google/maps-apis/credentials "Google Maps Platform Credentials page") to produce an API key - this is free but is required since keeping the use of APIs restricted only to authorised API keys adds security to the application, and ensures requests can only be made with your specific API key.
 2. Follow the steps on their website until an API key for your project has been generated
-3. Find the following code block on line 21:
+3. Find the following code block on line 169, and enter your unique API key:
 
         <html>
-          <head>
-            <title>Test</title>
-          </head>
+          <script
+                src="https://maps.googleapis.com/maps/api/js?key=[YOUR_API_KEY]&callback=initMap&v=weekly"
+                async
+                ></script>
+          
