@@ -6,4 +6,4 @@
 
 To get started, and use our web app, please follow the steps below:
 
-1. Our system integrates the Google Maps API to calculate our location data. To use this API, head to the [Named Link](https://console.cloud.google.com/project/_/google/maps-apis/credentials "Google Maps Platform Credentials page")
+1. Our system integrates the Google Maps API to calculate our location data. To use this API, head to the [Google Maps Platform Credentials page](https://console.cloud.google.com/project/_/google/maps-apis/credentials "Google Maps Platform Credentials page")
